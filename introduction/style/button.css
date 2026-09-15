@@ -1,0 +1,68 @@
+.sub-but{
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-right: 9px;
+        transition: opacity 0.15s;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .sub-but:hover{
+        transform: scale(1.10);
+    }
+
+    .sub-but:active{
+        opacity: 0.4;
+    }
+
+
+    .jo{
+        border-color: blue;
+        border-style: solid;
+        border-width: 1px;
+        height: 35px;
+        width: 70px;
+        color: blue;
+        cursor: pointer;
+        border-radius: 3px;
+        margin-right: 9px;
+        transition: backgorund-color 1s,
+        color 1s;
+
+    }
+
+    .jo:hover{
+        background-color: blue;
+        color: white;
+    }
+
+    .jo:active{
+        transform: scale(1.10);
+    }
+
+    
+    .tw{
+        background-color: rgb(0, 170, 255);
+        color: white;
+        border-radius: 30px;
+        width: 70px;
+        height: 35px;
+        cursor: pointer;
+        border: none;
+        font-weight: bold;
+        font-size: 13px;
+        transition: box-shadow 0.15s;
+    }
+
+    .tw:hover{
+        box-shadow: 1px 7px 16px black;
+    }
+
+    .tw:active{
+        transform: translateY(4px);
+    }

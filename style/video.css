@@ -1,0 +1,91 @@
+                
+                .p{
+                    width: 100%;
+                    position: relative;
+
+                }
+                .d{
+                    width: 300px;
+                }
+                
+                .p-vdo{
+                    display: grid;
+                    grid-template-columns: 50px 1fr;
+                }
+                
+                .vp{
+
+                }
+                .vs{
+                    width: 300px;
+                    display:inline-block;
+                    vertical-align: top;
+                }
+                .logo{
+                    width: 50px;
+                    border-radius: 500px; 
+                }
+                .vdo-info{
+                    width: 200px;
+                    
+                    margin-top: 0;
+                    margin-left: 8px;
+                }
+                .pp{
+                    
+                    vertical-align: top;
+
+                }
+                
+                .vt{
+                    margin-top: 0px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    margin-bottom: 12px;
+                }
+                .v-s,
+                .v-a{
+                    color: rgb(96, 96, 96);
+                    font-size: 12px;
+                }
+                .v-a{
+                    margin-bottom: 5px;
+                }
+                .video-grid{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    column-gap: 15px;
+                    row-gap: 50px;
+                }
+
+
+                @media (max-width: 750px){
+                    .video-grid{
+                        grid-template-columns: 1fr 1fr;
+                    }
+                }
+
+                @media (min-width: 1000px){
+                     .video-grid{
+                        grid-template-columns: 1fr 1fr 1fr 1fr;
+                    }
+                }
+                
+                .video-time{
+                    background-color: black;
+                    color: white;
+                    position: absolute;
+                    bottom: 8px;
+                    right: 5px;
+                    font-size: 12px;
+                    font-weight: 500;
+                    font-family: arial;
+                    padding: 4px 5px;
+                    border-radius: 3px;
+            
+                }
+                .t-r{
+                    position: relative;
+                    margin-bottom: 10px;
+                }

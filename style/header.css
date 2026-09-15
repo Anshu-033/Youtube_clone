@@ -1,0 +1,212 @@
+   .sb{
+        padding-left: 5px;
+        flex: 1;
+        height: 34px;
+        font-size: 16px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(184, 183, 183);
+        border-radius: 2px;
+        box-shadow: inset 1px 2px 6px 
+        rgba(0, 0, 0, 0.05);
+        width: 0;
+
+    }
+
+    .search-bar::placeholder{
+        font-family: arial;
+        font-size: 16px;
+    }
+
+    .header{
+        height: 55px;
+        display: flex;
+        flex-direction: rows;
+        justify-content: space-between;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        background-color: white;
+
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(184, 183, 183);
+
+        z-index: 100;
+
+    }
+
+
+    .left-section{
+        width: 180px;
+        display: flex;
+        align-items: center;
+    }
+
+    .hamburger-menu{
+        height: 24px;
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+
+    .youtube-logo{
+        height: 20px;
+    }
+
+    .middle-section{
+        flex: 1;
+        margin-left: 25px;
+        margin-right: 30px;
+        max-width: 650px;
+        display: flex;
+        align-items: center;
+    }
+
+    .sab{
+        height: 37px;
+        width: 60px;
+        border: 1px solid  rgb(184, 183, 183);
+        margin-left: -1px;
+        margin-right: 10px;
+        position: relative;
+    }
+
+    .search-button{
+        height: 20px;
+        background-color: rgb(234, 234, 234);
+        
+    }
+
+    .voice-search-button{
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
+        border: none;
+        background-color: rgb(234, 234, 234);
+
+    }
+
+    .voice-search-icon{
+        height: 20px;
+    }
+
+    /*we can write comment like this in CSS*/
+
+    .right-section{
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10px;
+        flex-shrink: 0;
+        margin-right: 20px;
+    }
+
+    .upload-icon{
+        height: 24px;
+    }
+
+    .youtube-apps-icon{
+        height: 24px;
+    }
+
+    .notifications-icon{
+        height: 24px;
+    }
+
+    
+
+    .current-user-picture{
+        height: 32px;
+        border-radius: 16px;
+    }
+
+    .notfications-icon-container{
+        position: relative;
+    }
+
+    .notifications-count{
+        position: absolute;
+        top: -2px;
+        right: -2px;
+        background-color: rgb(210, 3, 3);
+        color: white;
+        font-family: Arial;
+        font-size: 9px;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-bottom: 2px;
+        padding-top: 2px;
+        border-radius: 100px;
+
+    }
+
+    .sab,
+    .voice-search-button,
+    .upload-icon-container,
+    .youtube-apps-icon-container,
+    .notfications-icon-container,
+    .user-pic-container{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sab .tooltip,
+    .voice-search-button .tooltip,
+    .upload-icon-container .tooltip,
+    .youtube-apps-icon-container .tooltip,
+    .notfications-icon-container .tooltip,
+    .user-pic-container .tooltip{
+        font-family: arial;
+        position: absolute;
+        background-color: gray;
+        color: white;
+        padding-left: 4px;
+        padding-bottom: 4px;
+        padding-right: 4px;
+        padding-top: 4px;
+        border-radius: 2px;
+        font-size: 12px;
+        bottom: -32px;
+        opacity: 0;
+        transition: opacity 0.15s;
+        pointer-events: none;
+        white-space: nowrap;
+    }
+    .sab:hover .tooltip,
+    .voice-search-button:hover .tooltip,
+    .upload-icon-container:hover .tooltip,
+    .youtube-apps-icon-container:hover .tooltip,
+    .notfications-icon-container:hover .tooltip,
+    .user-pic-container:hover .tooltip{
+        opacity: 1;
+        
+    }
+
+    .sab:hover,
+    .voice-search-button:hover,
+    .upload-icon-container:hover,
+    .youtube-apps-icon-container:hover,
+    .notfications-icon-container:hover,
+    .user-pic-container:hover{
+        cursor: pointer;
+    }
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
